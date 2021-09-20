@@ -1,0 +1,73 @@
+:root {
+  /* Colors */
+  --c4c-color-blue: #1e2b3b;
+  --c4c-color-red: #d63435;
+  --c4c-color-beige: #f6f3ec;
+  /* Fonts */
+  --c4c-font-serif: "Goudy Bookletter 1911", serif;
+  --c4c-font-sans: "Karla", sans-serif;
+  --c4c-font-caps: "Poppins", sans-serif;
+}
+
+.c4c--type-display,
+.c4c--type-title,
+.c4c--type-heading,
+.c4c--type-hero,
+.c4c--type-body,
+.c4c--type-button,
+.c4c--type-subtitle,
+.c4c--type-label {
+  font-size: calc(var(--c4c-type-size) / 16 * 1rem);
+}
+
+/* Headings */
+.c4c--type-display,
+.c4c--type-title,
+.c4c--type-heading {
+  font-family: var(--c4c-font-serif);
+  font-weight: 400;
+  line-height: 0.9;
+}
+.c4c--type-display {
+  --c4c-type-size: 96;
+}
+.c4c--type-title {
+  --c4c-type-size: 72;
+}
+.c4c--type-heading {
+  --c4c-type-size: 48;
+}
+
+/* Body */
+.c4c--type-hero,
+.c4c--type-body {
+  font-family: var(--c4c-font-sans);
+  font-weight: 400;
+}
+.c4c--type-hero {
+  --c4c-type-size: 24;
+  line-height: 1.2;
+}
+.c4c--type-body {
+  --c4c-type-size: 16;
+  line-height: 1.5;
+}
+
+/* All caps */
+.c4c--type-button,
+.c4c--type-subtitle,
+.c4c--type-label {
+  font-family: var(--c4c-font-caps);
+}
+.c4c--type-button {
+  --c4c-type-size: 14;
+  font-weight: 700;
+}
+.c4c--type-subtitle {
+  --c4c-type-size: 18;
+  font-weight: 600;
+}
+.c4c--type-label {
+  --c4c-type-size: 12;
+  font-weight: 500;
+}

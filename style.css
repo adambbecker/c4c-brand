@@ -1,0 +1,34 @@
+/* === Reset === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  --gap-size: calc(32 / 16 * 1rem);
+  background-color: var(--c4c-color-beige);
+}
+
+/* === Layout === */
+.two-up,
+.three-up {
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  gap: var(--gap-size);
+}
+.two-up {
+  --cols: 2;
+}
+.three-up {
+  --cols: 3;
+}
