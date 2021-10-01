@@ -1,0 +1,11 @@
+{
+  "name": "c4c-brand",
+  "version": "1.0.0",
+  "description": "Brand package for the cole4colorado.com campaign.",
+  "author": "Adam B. Becker <@abbwebdev>",
+  "main": "c4c-brand.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbwebdev/c4c-brand.git"
+  }
+}
